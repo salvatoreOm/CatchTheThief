@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40C9D9732BAAD8DB00657AFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C9D9722BAAD8DB00657AFC /* AppDelegate.swift */; };
+		40C9D9752BAAD8DB00657AFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C9D9742BAAD8DB00657AFC /* SceneDelegate.swift */; };
+		40C9D9772BAAD8DB00657AFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C9D9762BAAD8DB00657AFC /* ViewController.swift */; };
+		40C9D97A2BAAD8DB00657AFC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 40C9D9792BAAD8DB00657AFC /* Base */; };
+		40C9D97C2BAAD8DC00657AFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C9D97B2BAAD8DC00657AFC /* Assets.xcassets */; };
+		40C9D97F2BAAD8DC00657AFC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 40C9D97E2BAAD8DC00657AFC /* Base */; };
+		40C9D98A2BAAD8DC00657AFC /* CatchTheThiefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C9D9892BAAD8DC00657AFC /* CatchTheThiefTests.swift */; };
+		40C9D9942BAAD8DC00657AFC /* CatchTheThiefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C9D9932BAAD8DC00657AFC /* CatchTheThiefUITests.swift */; };
+		40C9D9962BAAD8DC00657AFC /* CatchTheThiefUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C9D9952BAAD8DC00657AFC /* CatchTheThiefUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40C9D9862BAAD8DC00657AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40C9D9672BAAD8DB00657AFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C9D96E2BAAD8DB00657AFC;
+			remoteInfo = CatchTheThief;
+		};
+		40C9D9902BAAD8DC00657AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40C9D9672BAAD8DB00657AFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C9D96E2BAAD8DB00657AFC;
+			remoteInfo = CatchTheThief;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40C9D96F2BAAD8DB00657AFC /* CatchTheThief.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchTheThief.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C9D9722BAAD8DB00657AFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40C9D9742BAAD8DB00657AFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		40C9D9762BAAD8DB00657AFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40C9D9792BAAD8DB00657AFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40C9D97B2BAAD8DC00657AFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40C9D97E2BAAD8DC00657AFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40C9D9802BAAD8DC00657AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C9D9852BAAD8DC00657AFC /* CatchTheThiefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchTheThiefTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C9D9892BAAD8DC00657AFC /* CatchTheThiefTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTheThiefTests.swift; sourceTree = "<group>"; };
+		40C9D98F2BAAD8DC00657AFC /* CatchTheThiefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchTheThiefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C9D9932BAAD8DC00657AFC /* CatchTheThiefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTheThiefUITests.swift; sourceTree = "<group>"; };
+		40C9D9952BAAD8DC00657AFC /* CatchTheThiefUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTheThiefUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40C9D96C2BAAD8DB00657AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C9D9822BAAD8DC00657AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C9D98C2BAAD8DC00657AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40C9D9662BAAD8DB00657AFC = {
+			isa = PBXGroup;
+			children = (
+				40C9D9712BAAD8DB00657AFC /* CatchTheThief */,
+				40C9D9882BAAD8DC00657AFC /* CatchTheThiefTests */,
+				40C9D9922BAAD8DC00657AFC /* CatchTheThiefUITests */,
+				40C9D9702BAAD8DB00657AFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40C9D9702BAAD8DB00657AFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40C9D96F2BAAD8DB00657AFC /* CatchTheThief.app */,
+				40C9D9852BAAD8DC00657AFC /* CatchTheThiefTests.xctest */,
+				40C9D98F2BAAD8DC00657AFC /* CatchTheThiefUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40C9D9712BAAD8DB00657AFC /* CatchTheThief */ = {
+			isa = PBXGroup;
+			children = (
+				40C9D9722BAAD8DB00657AFC /* AppDelegate.swift */,
+				40C9D9742BAAD8DB00657AFC /* SceneDelegate.swift */,
+				40C9D9762BAAD8DB00657AFC /* ViewController.swift */,
+				40C9D9782BAAD8DB00657AFC /* Main.storyboard */,
+				40C9D97B2BAAD8DC00657AFC /* Assets.xcassets */,
+				40C9D97D2BAAD8DC00657AFC /* LaunchScreen.storyboard */,
+				40C9D9802BAAD8DC00657AFC /* Info.plist */,
+			);
+			path = CatchTheThief;
+			sourceTree = "<group>";
+		};
+		40C9D9882BAAD8DC00657AFC /* CatchTheThiefTests */ = {
+			isa = PBXGroup;
+			children = (
+				40C9D9892BAAD8DC00657AFC /* CatchTheThiefTests.swift */,
+			);
+			path = CatchTheThiefTests;
+			sourceTree = "<group>";
+		};
+		40C9D9922BAAD8DC00657AFC /* CatchTheThiefUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40C9D9932BAAD8DC00657AFC /* CatchTheThiefUITests.swift */,
+				40C9D9952BAAD8DC00657AFC /* CatchTheThiefUITestsLaunchTests.swift */,
+			);
+			path = CatchTheThiefUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40C9D96E2BAAD8DB00657AFC /* CatchTheThief */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C9D9992BAAD8DC00657AFC /* Build configuration list for PBXNativeTarget "CatchTheThief" */;
+			buildPhases = (
+				40C9D96B2BAAD8DB00657AFC /* Sources */,
+				40C9D96C2BAAD8DB00657AFC /* Frameworks */,
+				40C9D96D2BAAD8DB00657AFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatchTheThief;
+			productName = CatchTheThief;
+			productReference = 40C9D96F2BAAD8DB00657AFC /* CatchTheThief.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40C9D9842BAAD8DC00657AFC /* CatchTheThiefTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C9D99C2BAAD8DC00657AFC /* Build configuration list for PBXNativeTarget "CatchTheThiefTests" */;
+			buildPhases = (
+				40C9D9812BAAD8DC00657AFC /* Sources */,
+				40C9D9822BAAD8DC00657AFC /* Frameworks */,
+				40C9D9832BAAD8DC00657AFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40C9D9872BAAD8DC00657AFC /* PBXTargetDependency */,
+			);
+			name = CatchTheThiefTests;
+			productName = CatchTheThiefTests;
+			productReference = 40C9D9852BAAD8DC00657AFC /* CatchTheThiefTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40C9D98E2BAAD8DC00657AFC /* CatchTheThiefUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C9D99F2BAAD8DC00657AFC /* Build configuration list for PBXNativeTarget "CatchTheThiefUITests" */;
+			buildPhases = (
+				40C9D98B2BAAD8DC00657AFC /* Sources */,
+				40C9D98C2BAAD8DC00657AFC /* Frameworks */,
+				40C9D98D2BAAD8DC00657AFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40C9D9912BAAD8DC00657AFC /* PBXTargetDependency */,
+			);
+			name = CatchTheThiefUITests;
+			productName = CatchTheThiefUITests;
+			productReference = 40C9D98F2BAAD8DC00657AFC /* CatchTheThiefUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40C9D9672BAAD8DB00657AFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					40C9D96E2BAAD8DB00657AFC = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					40C9D9842BAAD8DC00657AFC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 40C9D96E2BAAD8DB00657AFC;
+					};
+					40C9D98E2BAAD8DC00657AFC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 40C9D96E2BAAD8DB00657AFC;
+					};
+				};
+			};
+			buildConfigurationList = 40C9D96A2BAAD8DB00657AFC /* Build configuration list for PBXProject "CatchTheThief" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40C9D9662BAAD8DB00657AFC;
+			productRefGroup = 40C9D9702BAAD8DB00657AFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40C9D96E2BAAD8DB00657AFC /* CatchTheThief */,
+				40C9D9842BAAD8DC00657AFC /* CatchTheThiefTests */,
+				40C9D98E2BAAD8DC00657AFC /* CatchTheThiefUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40C9D96D2BAAD8DB00657AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C9D97C2BAAD8DC00657AFC /* Assets.xcassets in Resources */,
+				40C9D97F2BAAD8DC00657AFC /* Base in Resources */,
+				40C9D97A2BAAD8DB00657AFC /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C9D9832BAAD8DC00657AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C9D98D2BAAD8DC00657AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40C9D96B2BAAD8DB00657AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C9D9772BAAD8DB00657AFC /* ViewController.swift in Sources */,
+				40C9D9732BAAD8DB00657AFC /* AppDelegate.swift in Sources */,
+				40C9D9752BAAD8DB00657AFC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C9D9812BAAD8DC00657AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C9D98A2BAAD8DC00657AFC /* CatchTheThiefTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C9D98B2BAAD8DC00657AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C9D9942BAAD8DC00657AFC /* CatchTheThiefUITests.swift in Sources */,
+				40C9D9962BAAD8DC00657AFC /* CatchTheThiefUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40C9D9872BAAD8DC00657AFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40C9D96E2BAAD8DB00657AFC /* CatchTheThief */;
+			targetProxy = 40C9D9862BAAD8DC00657AFC /* PBXContainerItemProxy */;
+		};
+		40C9D9912BAAD8DC00657AFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40C9D96E2BAAD8DB00657AFC /* CatchTheThief */;
+			targetProxy = 40C9D9902BAAD8DC00657AFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40C9D9782BAAD8DB00657AFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40C9D9792BAAD8DB00657AFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40C9D97D2BAAD8DC00657AFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40C9D97E2BAAD8DC00657AFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40C9D9972BAAD8DC00657AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40C9D9982BAAD8DC00657AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40C9D99A2BAAD8DC00657AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2U993AL4Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatchTheThief/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omparihar.CatchTheThief;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40C9D99B2BAAD8DC00657AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2U993AL4Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatchTheThief/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omparihar.CatchTheThief;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40C9D99D2BAAD8DC00657AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2U993AL4Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omparihar.CatchTheThiefTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatchTheThief.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CatchTheThief";
+			};
+			name = Debug;
+		};
+		40C9D99E2BAAD8DC00657AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2U993AL4Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omparihar.CatchTheThiefTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatchTheThief.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CatchTheThief";
+			};
+			name = Release;
+		};
+		40C9D9A02BAAD8DC00657AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2U993AL4Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omparihar.CatchTheThiefUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatchTheThief;
+			};
+			name = Debug;
+		};
+		40C9D9A12BAAD8DC00657AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2U993AL4Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omparihar.CatchTheThiefUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatchTheThief;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40C9D96A2BAAD8DB00657AFC /* Build configuration list for PBXProject "CatchTheThief" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C9D9972BAAD8DC00657AFC /* Debug */,
+				40C9D9982BAAD8DC00657AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C9D9992BAAD8DC00657AFC /* Build configuration list for PBXNativeTarget "CatchTheThief" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C9D99A2BAAD8DC00657AFC /* Debug */,
+				40C9D99B2BAAD8DC00657AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C9D99C2BAAD8DC00657AFC /* Build configuration list for PBXNativeTarget "CatchTheThiefTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C9D99D2BAAD8DC00657AFC /* Debug */,
+				40C9D99E2BAAD8DC00657AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C9D99F2BAAD8DC00657AFC /* Build configuration list for PBXNativeTarget "CatchTheThiefUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C9D9A02BAAD8DC00657AFC /* Debug */,
+				40C9D9A12BAAD8DC00657AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40C9D9672BAAD8DB00657AFC /* Project object */;
+}
